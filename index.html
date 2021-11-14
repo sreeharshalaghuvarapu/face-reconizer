@@ -1,61 +1,57 @@
- 
 <html>
-  <head>
-    <title>face recognition</title>
+
+<head>
+  <title>Realtime Image Identification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
-   <link rel="stylesheet" href="style.css">
-  
-  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <body>
-  <div class="container">
-    
-    <center>
-    <h3 class="btn btn-default heading">FACE RECOGNITION</h3>
-   
+</head>
 
-      <br><br>
-
-      <p style="font-size: 22px;">Model is trained to identify the following faces: </p>
-     
-      <b class="name_of_objects">
-        me
-        <hr>
-        dad
-        <hr>
-        mom
-        <hr>
-        sister
-        <hr>
-      </b>
-     
-      <label>Webcam View - </label>
-     
-      <div id="camera"></div>
-     
-      <div id="result"></div>
-      <br><br>
-       <button onclick="take_snapshot();" class="btn btn-info">caputre face</button>
-      <br><br>
-      <button onclick="check();" class="btn btn-success">identify face</button>
-      <br><br>
-        
-
-      <p style="font-size: 22px;">face : <span id="result_face
-        _name"></span> </p>
-      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span> </p>
-    </center>
-
+<body background ="background.jpg">
+  <center><h3 class="btn btn-info heading">Realtime Image Identification 
+  <hr>
+  <center><div class="col-lg-6 col-mt-6 col-sm-6 col-xs-12 heading_div">
+    model is trained on
+    <br>
+    <div class="btn btn-warning heading_div2">
+      Phone | Spoon | Water bottle | wacth
+    </div>
   </div>
-<script src="main.js"></script>
+</center>
+<br>
+  </h3>
+  <br><br>
 
-  </body>
+<p class="btn btn-warning result_para_tag">Object: 
+  <span id="result_object_name"></span>
+</p>
+
+<br><br>
+
+<p class="btn btn-warning result_para_tag">accuracy: 
+  <span id="result_object_accuracy"></span>
+</p>
+
+
+</center>
+
+<div class="copy_right_footer">
+  Developed by - Sree Harsha
+</div>
+</body>
+
+<script src="main.js"></script>
+</body>
+
 </html>
 
- 
+
+
+
