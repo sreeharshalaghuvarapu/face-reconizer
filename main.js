@@ -1,7 +1,7 @@
 function setup() {
     canavas = createCanavas(300,300);
-    canavas.center();
+    Canvas.center();
 }
 
-function draw( {
-})
+function draw() {
+}

@@ -27,12 +27,11 @@ body{
 
 .result_para_tag
 {
-    box-shadow:5px 5px 5px grey;
+    box-shadow: 5px 5px 55pc 5px grey;
     font-size: 20px;
 }
-
 .copy_right_footer {
-    position:fixed;
+    position: fixed;
     color: white;
     bottom: 0;
     width: 100%;
@@ -40,11 +39,10 @@ body{
     line-height: 3;
     text-align: center;
 }
-
-canvas
+canavas
 {
-    border:5px solid white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
-    margin-top: 150px;
+  border:5px solid white;
+  border-radius: 20px;
+  box-shadow:5px 5px 5px grey;
+  margin-top: 150px;
 }
